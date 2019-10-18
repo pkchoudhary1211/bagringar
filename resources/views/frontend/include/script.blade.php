@@ -1,0 +1,32 @@
+    <!-- <script src="{{asset('frontend/js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{asset('frontend/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('frontend/js/modernizr.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery-ui.js')}}"></script>
+    <script src="{{asset('frontend/js/owl.carousel.js')}}"></script>
+    <script src="{{asset('frontend/js/customScrollbar.min.js')}}"></script>
+    <script src="{{asset('frontend/js/select2.min.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.bxslider.min.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.countTo.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.inview.min.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.magnific-popup.js')}}"></script>
+    <script src="{{asset('frontend/js/imagesloaded.pkgd.min.js')}}"></script>
+    <script src="{{asset('frontend/js/isotope.pkgd.min.js')}}"></script>
+    <script src="{{asset('frontend/js/cursor.js')}}"></script>
+    <script src="{{asset('frontend/js/cricket.js')}}"></script>
+    <script src="{{asset('frontend/js/main.js')}}"></script> -->
+
+
+    <script src="{{asset('frontend/js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{asset('frontend/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('frontend/js/modernizr.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery-ui.js')}}"></script>
+    <script src="{{asset('frontend/js/owl.carousel.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.bxslider.min.js')}}"></script>
+    <script src="{{asset('frontend/js/customScrollbar.min.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.countTo.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.inview.min.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.magnific-popup.js')}}"></script>
+    <script src="{{asset('frontend/js/imagesloaded.pkgd.min.js')}}"></script>
+    <script src="{{asset('frontend/js/isotope.pkgd.min.js')}}"></script>
+    <script src="{{asset('frontend/js/cursor.js')}}"></script>
+    <script src="{{asset('frontend/js/main.js')}}"></script>
