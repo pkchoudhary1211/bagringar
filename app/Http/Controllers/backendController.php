@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use \GuzzleHttp\Client;
 
 class backendController extends Controller
 {
@@ -86,5 +87,27 @@ class backendController extends Controller
     }
     public function news(){
         return view('backend.news');
+    }
+    public function apiData(){
+        $client = new Client();
+        // try{
+        //     $response = $client->get('https://jsonplaceholder.typicode.com/posts');
+        // }catch (Exception $e) {
+        //     dd($e);
+        // }
+        // dd(json_decode($response->getBody()));
+        // $client = new Client();
+        try{
+            // $params['headers']=array
+            $params['form_params'] =array('userId'=>1211,'title'=>'thi is toi','body'=>'testwd');
+            $response = $client->post('https://jsonplaceholder.typicode.com/posts',$params);
+            // $response = $client->send($response);
+        }catch (Exception $e) {
+            dd($e);
+        // dd(json_decode($response->g
+        // etBody()));
+        }
+        dd(json_decode($response->getBody()));
+       
     }
 }

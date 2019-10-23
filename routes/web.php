@@ -26,8 +26,13 @@ Route::get('/education','frontendController@education')->name('education');
 Route::get('/places','frontendController@places')->name('places');
 Route::get('/contact','frontendController@contact')->name('contact');
 Route::get('/photo_gallery','frontendController@photoGallery')->name('photo_gallery');
+Route::get('/user_login','commonController@userLogin')->name('user_login');
 //end frontend routing
 
 //backend Routing
 Route::get('/admin_panel/dashboard','backendController@dashboard')->name('dashboard');
 Route::get('/admin_panel/news','backendController@news')->name('dashboard');
+Route::get('apivalue','backendController@apiData');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
